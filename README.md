@@ -90,7 +90,9 @@ press `i` and paste the above code into it.
 press esc, :x (press enter)
 
 # make it an executable
+```
 chmod +x run.sh
+```
 
 #run the shell script with 
 ```
