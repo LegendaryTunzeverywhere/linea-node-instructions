@@ -62,7 +62,6 @@ After success
 
 copy this 👇👇
 ```
-#!/bin/bash/sh
 geth \
 --datadir $HOME/geth-linea-data \
 --networkid 59144 \
