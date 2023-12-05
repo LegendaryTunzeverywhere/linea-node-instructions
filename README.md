@@ -35,7 +35,12 @@ vi genesis.json
 press i
 
 ** copy and paste text from this ![Link](https://docs.linea.build/files/genesis.json) into the buffer
-press esc, :x (press enter)
+press esc :x (press enter)
+
+# or type in this command in the linea folder
+```
+wget https://docs.linea.build/files/genesis.json
+```
 
 # Next step is to create space(volume) for your node 
 
@@ -55,6 +60,8 @@ mount -o loop myfile.img /mnt/myvolume
 ```
 geth --datadir ./geth-linea-data init ./genesis.json
 ```
+
+# run this line of command as well
 
 After success
 
@@ -86,7 +93,7 @@ vi run.sh
 ```
 press `i` and paste the above code into it.
 
-press esc, :x (press enter)
+press esc :x (press enter)
 
 # make it an executable
 ```
